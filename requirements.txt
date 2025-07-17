@@ -1,0 +1,10 @@
+# Core dependencies for GUI, image processing, and plotting
+matplotlib>=3.7.0  # For plotting strokes, equations, and confidence plots
+opencv-python>=4.8.0  # For webcam capture and image processing
+mediapipe>=0.10.0  # For hand tracking
+numpy>=1.24.0  # For array operations
+pillow>=10.0.0  # For image handling (PIL)
+# Machine learning with GPU support
+tensorflow[and-cuda]>=2.17.0  # For CNN model with GPU support (requires CUDA/cuDNN)
+# Optional: For TensorRT optimization (uncomment if implementing full TensorRT inference)
+# tensorrt>=10.0.0  # For optimized inference on NVIDIA GPUs
